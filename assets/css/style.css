@@ -149,6 +149,13 @@
     flex-wrap: wrap;
   }
 
+  .zoom:hover {
+    -ms-transform: scale(2);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+  }
+
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
