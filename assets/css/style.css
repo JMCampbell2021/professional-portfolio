@@ -55,7 +55,7 @@
 
   header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
+    font-weight: solid;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
   }
@@ -90,18 +90,29 @@
     padding: 7px;
   }
 
-  .hero img {
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
-    width: 50%;
+ /* Hero Starts */
+  .hero {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
+
+  .hero-image {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 100;
+  }
+ /* hero Ends */
 
   .container img {
     width: 400px;
     height: auto;
   }
-
-
-
- 
