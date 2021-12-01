@@ -134,14 +134,15 @@
 
   .grid-container {
     display: flex;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 12px;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .grid-container2 {
     display: flex;
-    grid-gap: 12px;
+    grid-gap: 20px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -155,7 +156,7 @@
 
  
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 998px) {
 
     header {
       padding-bottom: 0;
